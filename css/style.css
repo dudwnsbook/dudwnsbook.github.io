@@ -152,14 +152,21 @@ html, body{
     box-sizing: border-box;
     margin-top: 10px;
 }
-#list-box{
-    width: 300px;
+.list-content{
+    width: 320px;
     height: 400px;
+    overflow: auto;
     margin: 0 auto;
     margin-top: 20px;
+}
+#list-box{
+    width: 300px;
+    height: auto;
+    
+    
+    font-size:25px; 
     /* background-color: #fff; */
-    overflow: hidden;
-    font-size:25px;
+ 
 }
 #list-box li{
     width: 100%;
