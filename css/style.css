@@ -147,29 +147,45 @@ html, body{
     font-weight: 600;
     text-align: center;
     color: #fff;
-    padding-top:5px;
+    /* padding-top:10px; */
+    border-bottom: 2px dashed #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
 }
 #list-box{
     width: 300px;
     height: 400px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     /* background-color: #fff; */
     overflow: hidden;
     font-size:25px;
 }
 #list-box li{
     width: 100%;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border-bottom: 3px solid #fff; */
+    margin-top: 10px;
+    padding-bottom: 4px;
+    /* box-shadow: 0 3px 3px rgba(0,0,0,0.4); */
     /* background-color: red; */
+    background-color: #FFF;
+    border-radius: 14px;
+    color: #98bff3;
+}
+#list-box li:hover{
+    box-shadow: 0 5px 3px rgba(0,0,0,0.4);
 }
 #list-box span{
     display: block;
     width: 80px;
+    /* color: #fff; */
+    font-weight: 600;
+    text-indent: 5px;
 
 }
 #list-box button {
@@ -179,7 +195,9 @@ html, body{
     border: none;
     cursor: pointer;
     font-size: 20px;
-    color: #ef5777;
+    /* color: #fff; */
+    color: #98bff3;
+    font-weight: 700;
 }
 .hidden{
     display: none;
