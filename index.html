@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <div class="outBox">
+        <div class="inBox">
+            <!-- <h1 id="title">HELLO, WORLD!</h1> -->
+            <div class="imgBox">
+                <img src="img/basic_img.png" alt="img">
+                <div id="start-wrap">
+                    <div class="login-wrap">
+                        <div class="login-beforBox">
+                            <h1 id="login-title">Hello, Wrold!</h1>
+                            <div class="login-user">
+                                <i class="xi-profile"></i>
+                            </div>
+                            <form id="login-form">
+                                <div class="login-line">
+                                    <input type="text" id="inp-login" placeholder="ID">
+                                    <button>LOGIN</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <div class="login-afterBox hidden">
+                            <p class="login-afterTitle">To Do List!!!</p>
+                            <form id="todo-form">
+                                <input type="text" placeholder="Write a To Do and Press Enter">
+                              </form>
+                            <div class="weather-wrap">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="list-wrap hidden">
+                        <p class="list-title">Your To-Do-List</p>
+                        <ul id="list-box">
+                            
+                        </ul>
+
+                    </div>
+                    <div class="changeImg-wrap">
+                        <img src="img/change_1.jpg" alt="change_img" style="display:block; width:  164px; height: 218px;">
+                    </div>
+                    <div class="clock-wrap">
+                        <div class="clock-box">
+                            <div class="hh">
+                                <span>00</span>
+                            </div>
+                            <div class="mm">
+                                <span>00</span>
+                            </div>
+                        </div>
+                       
+                        <div class="clock-info">
+                            <span>AM</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/changeImg.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
